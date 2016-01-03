@@ -1,0 +1,366 @@
+/*------------Nav bar------------*/
+
+.nav{
+	width:150px;
+    position:fixed;
+    left:0px;
+    height:100%;
+}
+
+
+.logo{
+    margin: 0px;
+    padding: 0px;
+    border: 0px; none;
+    vertical-align: baseline;
+    padding-bottom: 2em;
+}
+
+.logo_img img{
+    border-radius: 100%;
+    max-height: 9em;
+    max-width: 8m;
+    top:2em;
+    left:0.5em;
+    position: relative;
+}
+
+.logo_img p{
+font-family: 'Sarpanch';
+  font-style: normal;
+  font-weight: 600;
+    padding-top: 2em;
+    padding-left: 0.5em; 
+    color: orange;
+    font-size: 1.5em;
+}
+
+/*--------inactive side bar---------*/
+.main{
+    padding-bottom: 2em;
+    
+    
+}
+.main button{
+    border-width: 0 5em 0 thick;
+    border-color: red;
+    border-style: solid;
+    background-color: white;
+    height: 4em;
+    width: 10em;
+    font-family: 'Sarpanch';
+    font-style: normal;
+    font-weight: 500;
+    margin-left:-5em;
+}
+
+.videos{
+    padding-bottom: 2em;
+    
+    
+}
+.videos button{
+    border-width: 0 5em 0 thick;
+    border-color: yellow;
+    border-style: solid;
+    background-color: white;
+    height: 4em;
+    width: 10em;
+    font-family: 'Sarpanch';
+    font-style: normal;
+    font-weight: 500;
+    margin-left:-5em;
+}
+
+.blog{
+    padding-bottom: 2em;
+    
+    
+}
+.blog button{
+    border-width: 0 5em 0 thick;
+    border-color: blue;
+    border-style: solid;
+    background-color: white;
+    height: 4em;
+    width: 10em;
+    font-family: 'Sarpanch';
+  font-style: normal;
+  font-weight: 500;
+    margin-left:-5em;
+}
+
+.stuff{
+    padding-bottom: 2em;
+    
+    
+}
+.stuff button{
+    border-width: 0 5em 0 thick;
+    border-color: orange;
+    border-style: solid;
+    background-color: white;
+    height: 4em;
+    width: 10em;
+    font-family: 'Sarpanch';
+    font-style: normal;
+    font-weight: 500;
+    margin-left:-5em;
+}
+
+.info{
+    padding-bottom: 2em;
+    
+    
+}
+.info button{
+    border-width: 0 5em 0 thick;
+    border-color: green;
+    border-style: solid;
+    background-color: white;
+    height: 4em;
+    width: 10em;
+    font-family: 'Sarpanch';
+    font-style: normal;
+    font-weight: 500;
+    margin-left:-5em;
+}
+
+/*-------active element--------*/
+
+.main_active{
+    padding-bottom: 2em;
+    
+    
+}
+.main_active button{
+    border-width: 0 5em 0 thick;
+    border-color: red;
+    border-style: solid;
+    background-color: white;
+    height: 4em;
+    width: 10em;
+    font-family: 'Sarpanch';
+    font-style: normal;
+    font-weight: 500;
+    margin-left:0em;
+}
+
+.videos_active{
+    padding-bottom: 2em;
+    
+    
+}
+.videos_active button{
+    border-width: 0 5em 0 thick;
+    border-color: yellow;
+    border-style: solid;
+    background-color: white;
+    height: 4em;
+    width: 10em;
+    font-family: 'Sarpanch';
+    font-style: normal;
+    font-weight: 500;
+    margin-left:0em;
+}
+
+.blog_active{
+    padding-bottom: 2em;
+    
+    
+}
+.blog_active button{
+    border-width: 0 5em 0 thick;
+    border-color: blue;
+    border-style: solid;
+    background-color: white;
+    height: 4em;
+    width: 10em;
+    font-family: 'Sarpanch';
+    font-style: normal;
+    font-weight: 500;
+    margin-left:0em;
+}
+
+.stuff_active{
+    padding-bottom: 2em;
+    
+    
+}
+.stuff_active button{
+    border-width: 0 5em 0 thick;
+    border-color: orange;
+    border-style: solid;
+    background-color: white;
+    height: 4em;
+    width: 10em;
+    font-family: 'Sarpanch';
+    font-style: normal;
+    font-weight: 500;
+    margin-left:0em;
+}
+
+.info_active{
+    padding-bottom: 2em;
+    
+    
+}
+.info_active button{
+    border-width: 0 5em 0 thick;
+    border-color: green;
+    border-style: solid;
+    background-color: white;
+    height: 4em;
+    width: 10em;
+    font-family: 'Sarpanch';
+    font-style: normal;
+    font-weight: 500;
+    margin-left:0em;
+}
+
+
+/*------------body-------------*/
+body{
+
+    
+	margin-left: 20%;
+}
+
+
+/*------------Main Page-------------*/
+
+section{
+    padding-top: 5em;
+    max-width: 1100px;
+    margin-left: 20%;
+    
+
+}
+
+section img{
+	float:right;
+	padding:1em 1em;
+	width:35em;
+	height:30em;
+}
+section li{
+	display:inline;
+}
+
+
+.imgWrap{
+    position:relative;
+    float:right;
+    
+}
+.imgWrap .textWrap {
+    position:absolute;
+    top:10em; 
+    left:3em;
+    display: none;
+    color:white;
+    font-family: 'Sarpanch';
+    font-style: normal;
+ 
+   
+}
+.imgWrap .textWrap h2 {
+  font-weight: bold;
+}
+
+/*------------videoPage----------*/
+#videoPage{
+    margin-left: 25%;
+   
+}
+.flavortxt{
+    margin-left: 13%;
+    font-family: 'Sarpanch';
+    font-style: normal;
+    font-weight: 500;
+}
+
+/*-------------blogPage----------*/
+.tumblr_posts {	
+    float: left;
+    display: inline-block;
+    margin-top: -5px;
+    max-width: 500px;
+    
+}
+.tumblr_post {		
+    float: left;
+}
+.tumblr_title {	
+    color:red;
+}
+.tumblr_body img {	
+    float: left;
+}
+.read_more_container {
+	float: left;
+}
+.read_more_container a {
+	float: left;
+}
+.twitter-timeline{
+    float:right;
+    width: 10em;
+    display: inline-block;
+    margin-top: -5px;
+    
+}
+/*-------------stuffPage---------*/
+.search_container{
+    text-align: center;
+}
+.stuff_list{
+    display: inline;
+    padding-top: 5em;
+}
+.stuff_wrap{
+    float: left;
+    font-family: 'Sarpanch';
+    font-style: normal;
+    font-weight: 500;
+}
+.stuff_wrap img{
+    max-height: 10em;
+    max-width: 15em;
+    padding: 0 1em 0 1em;
+}
+
+/*-------------infoPage----------*/
+.info_text{
+    font-family: 'Sarpanch';
+    font-style: normal;
+    font-weight: 500;
+    padding-top: 5em;
+}
+
+/*-------------footer------------*/
+footer{
+	font-size: 0.8em;
+	text-align: center;
+	color: #ccc;
+    float: right;
+    margin:auto 43% auto auto;
+    
+}
+footer p{
+	padding-top:2em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+footer a{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+footer img{
+    max-width: 3em;
+    max-height: 3em;
+    padding:inherit 2em inherit 2em;
+}
+
+
