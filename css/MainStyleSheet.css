@@ -1,5 +1,10 @@
 /*------------Nav bar------------*/
-
+.Desktop{
+    display:block;
+}
+.mobile{
+    display: none;
+}
 .nav{
 	width:150px;
     position:fixed;
@@ -11,7 +16,7 @@
 .logo{
     margin: 0px;
     padding: 0px;
-    border: 0px; none;
+    border: 0px none;
     vertical-align: baseline;
     padding-bottom: 2em;
 }
@@ -19,16 +24,16 @@
 .logo_img img{
     border-radius: 100%;
     max-height: 9em;
-    max-width: 8m;
+    max-width: 8em;
     top:2em;
     left:0.5em;
     position: relative;
 }
 
 .logo_img p{
-font-family: 'Sarpanch';
-  font-style: normal;
-  font-weight: 600;
+    font-family: 'Sarpanch';
+    font-style: normal;
+    font-weight: 600;
     padding-top: 2em;
     padding-left: 0.5em; 
     color: orange;
@@ -362,5 +367,190 @@ footer img{
     max-height: 3em;
     padding:inherit 2em inherit 2em;
 }
+
+/*------------phone screen-----------------*/
+@media screen and (max-width:1295px){
+    
+    .Desktop{
+        display: none;
+    }
+    
+    .mobile{
+        display: block;
+        
+    }
+/*********mobile nav bar************/    
+    .mobile_nav{
+        width:100%;
+        height:9em;
+        background-color:crimson;
+        text-align: center;
+        position: fixed;
+    }
+    
+    #grant_img{
+        max-width: 7em;
+        max-height: 7em;
+        border-radius: 100%;
+        float:left;
+        display: inline;
+        margin-top: 1em;
+    }
+    
+    .mobile_nav h1{
+        font-family: 'Sarpanch';
+        font-style: normal;
+        font-weight: 600;
+        color: orange;
+        font-size: 2em; 
+        display: inline;
+        line-height: 4em;
+        height: 10em;
+        width: 10em;
+        margin-top: 1em;
+    }
+
+/**************drop down menu************/
+    #drop_down{
+        max-width: 7em;
+        max-height: 7em;
+        float: right;
+        display: inline;
+        margin-top:1em;
+    }
+    
+    .drop_menu {
+        right:-10em;
+        height: 100%;
+        width: 10em;
+        position: fixed;
+        background-color: slategrey;
+        margin-top: 9em;
+        
+    }
+    .drop_menu ul{
+        list-style: none;
+    }
+    
+    .drop_menu li{
+        margin:0 auto;
+        font-family: 'Sarpanch';
+        font-style: normal;
+        font-weight: 600;
+        color: orange;
+        font-size: 2em; 
+        margin-left: -1em;
+        padding-bottom: 25%;
+    }
+    
+    
+    .drop_lines{
+        background-color:red; 
+        width:100%; 
+        height:5px; 
+        top:0;  
+        z-index:1000;
+    }
+    
+/*------------Main Page-------------*/
+
+    .content{
+        padding-top: 10em;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .content img{
+        padding:1em 1em;
+        width:35em;
+        height:30em;
+        
+    }
+    .content li{
+        display:inline;
+       
+    }
+
+
+    .imgWrap_mobile{
+/*       position:relative;*/
+        
+        
+
+    }
+    .imgWrap_mobile .textWrap_mobile {
+        top:5em; 
+        color:black;
+        font-family: 'Sarpanch';
+        font-style: normal;
+    }
+    
+    .imgWrap_mobile .textWrap_mobile h2 {
+      font-weight: bold;
+    }
+    
+    
+/*************************Video Page**************************/
+    .flavortxt{
+        margin-left: 0em;
+    }
+  
+
+/*************************Blog Page**************************/   
+    .tumblr_posts {	
+    float: left;
+    display: inline-block;
+    margin-top: -5px;
+    max-width: 500px;
+    
+    }
+    .tumblr_post {		
+        float: none;
+    }
+    .tumblr_title {	
+        color:red;
+    }
+    .tumblr_body img {	
+        float: none;
+    }
+    .read_more_container {
+        float: none;
+    }
+    .read_more_container a {
+        float: none;
+    }
+    .twitter-timeline{
+        float:none;
+        width: 10em;
+        display: inline-block;
+        margin-top: -5px;
+
+    }
+    
+    
+
+/*-------------footer_mobile------------*/
+    .footer_mobile{
+        text-align: center;
+
+    }
+    .footer_mobile p{
+        padding-top:2em;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .footer_mobile a{
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    .footer_mobile img{
+        max-width: 3em;
+        max-height: 3em;
+        padding:inherit 2em inherit 2em;
+    }
+    
+}
+
 
 
